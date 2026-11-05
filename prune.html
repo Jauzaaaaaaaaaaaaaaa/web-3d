@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-flavour="base">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>prune — Lip tint</title>
+<link rel="stylesheet" href="css/prune.css">
+</head>
+<body>
+<div id="smears" aria-hidden="true">
+  <svg viewBox="0 0 1600 900" preserveAspectRatio="none">
+    <path d="M-40 560C260 300 420 880 720 660S1100 120 1660 300"/>
+    <path d="M180 -40C260 240 60 420 300 620S520 900 620 960"/>
+    <path d="M1250 -40C1120 220 1400 380 1230 620S1120 860 1200 960"/>
+  </svg>
+</div>
+<canvas id="back" aria-hidden="true"></canvas>
+<div id="fog" aria-hidden="true"></div>
+
+<header>
+  <a class="logo" href="#top">prune</a>
+  <nav><a href="#cacao">Cacao</a><a href="#peche">Pêche</a><a href="#framboise">Framboise</a></nav>
+  <a class="cart" href="#bag" aria-label="Bag">Bag <i>3</i></a>
+</header>
+
+<main id="top">
+  <section id="tag" style="--h:300vh"><div class="stage"></div></section>
+
+  <section id="hero" style="--h:300vh"><div class="stage">
+    <h1 class="fx-h">Lip tint that melts<br>like the things you crave.</h1>
+    <ul class="shades fx-h">
+      <li><i style="background:#3f2116"></i>Cacao<span>€24</span></li>
+      <li><i style="background:#c98a6e"></i>Pêche<span>€24</span></li>
+      <li><i style="background:#b3122f"></i>Framboise<span>€24</span></li>
+    </ul>
+    <div class="giant" aria-hidden="true">prune</div>
+  </div></section>
+
+  <section id="cacao" style="--h:280vh"><div class="stage">
+    <div class="copy left fx">
+      <p class="kick">Velvet chocolate</p>
+      <h2>Cacao</h2>
+      <p>A cocoa-brown veil with a blurred, velvet finish.</p>
+      <ul class="chips"><li>Cocoa butter</li><li>Vitamin E</li><li>Oil care</li></ul>
+      <a class="buy" href="#bag">Add to bag <span>€24</span></a>
+    </div>
+    <div class="post at-right fx" aria-hidden="true">
+      <p class="who"><i></i><b>prune.official</b><u>•••</u></p>
+      <p class="pt"><b>Cacao Lip Tint</b>€24 · Medium</p>
+    </div>
+  </div></section>
+
+  <section id="peche" style="--h:280vh"><div class="stage">
+    <div class="post at-mid fx" aria-hidden="true">
+      <p class="who"><i></i><b>prune.official</b><u>•••</u></p>
+      <p class="pt"><b>Pêche Lip Tint</b>€24 · Sheer</p>
+    </div>
+    <div class="copy right fx">
+      <p class="kick">Sun-warm stone fruit</p>
+      <h2>Pêche</h2>
+      <p>Sun-warm peach that sits like a blush, never a mask.</p>
+      <ul class="chips"><li>Peach extract</li><li>Shea</li><li>Sheer glow</li></ul>
+      <a class="buy" href="#bag">Add to bag <span>€24</span></a>
+    </div>
+  </div></section>
+
+  <section id="framboise" style="--h:280vh"><div class="stage">
+    <div class="huge fx" aria-hidden="true">FRAMBOISE</div>
+    <div class="post at-center fx" aria-hidden="true">
+      <p class="who"><i></i><b>prune.official</b><u>•••</u></p>
+      <p class="pt"><b>Framboise Lip Tint</b>€24 · Bold</p>
+    </div>
+    <div class="fbcopy fx">
+      <h2 class="sr">Framboise</h2>
+      <p>Crushed raspberry, stained and glossy. One swipe, all evening.</p>
+      <a class="buy" href="#bag">Add to bag <span>€24</span></a>
+    </div>
+  </div></section>
+
+  <section id="bag" style="--h:380vh"><div class="stage">
+    <div class="copy bagcopy fx">
+      <p class="kick">Order by 16:00 · Ships today</p>
+      <h2>It's in<br>the bag.</h2>
+      <p>Cacao, Pêche and Framboise for €62 instead of €72. Gift-wrapped, shipped free.</p>
+      <a class="buy" href="#top">Shop the trio <span>€62</span></a>
+    </div>
+    <p class="note">Konsep fiktif. prune bukan merek sungguhan.</p>
+  </div></section>
+</main>
+
+<canvas id="front" aria-hidden="true"></canvas>
+<svg id="heartTop" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21C5 15.5 2 12 2 8a5 5 0 0 1 10-1.6A5 5 0 0 1 22 8c0 4-3 7.5-10 13z"/></svg>
+<a class="swap" href="index.html">Lihat gaya kamera ↗</a>
+<script type="module" src="js/prune.js"></script>
+</body>
+</html>
